@@ -1,0 +1,141 @@
+#sidebar-layout {
+  /* border:solid 1px red; */
+
+  flex: 3.3;
+  height: 800px;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#koinx-banner {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(255, 47, 0); */
+  width: 100%;
+  background-color: #0053ff;
+  text-align: center;
+  padding: 2.5rem 3.5rem ;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 14px;
+  padding-bottom:3.5rem;
+}
+#koinx-banner-title {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bannaer-img{
+  position: relative;
+    /* border: 1px solid red; */
+    width: 13rem;
+    height:13rem;
+    left:   10%;
+    top: -3%;
+
+}
+/* #banner-top {
+  order: 2;
+} */
+#bannaer-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#button-div-bann{
+order: 3;
+}
+
+#banner-button {
+  margin-top: 2rem;
+  padding: 15px;
+  font-size: 18px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+#trending-3-coins-sidebar {
+  box-sizing: border-box;
+  background-color: #fefeff;
+  width: 100%;
+  height: 100%;
+  /* text-align: start; */
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+}
+#trending-top3-coins-show {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-left: 1.5rem; */
+  padding-top: 1.3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom:0.3rem;
+}
+
+#image-layout-top3-coins {
+  /* border: solid 1px red; */
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0.3rem;
+}
+#image-layout-top3-coins > img {
+  width: 100%;
+  height: 100%;
+}
+#trending-3-top-title {
+  font-size: 23px;
+  font-weight: 450;
+  padding-left: 1.5rem;
+}
+/* #top3-coin-perf-24 {
+  margin-left: 11rem;
+} */
+@media only screen and (max-width: 768px) {
+  #sidebar-layout{
+    /* border: solid 1px red; */
+    margin:2rem 0.5rem;
+    padding-bottom: 2rem;
+  }
+ 
+  #koinx-banner {
+    /* border: solid 1px red; */
+    padding: 1rem 2rem;
+
+    padding-bottom:1.5rem;
+
+
+    
+  }
+  #bannaer-img{
+    width: 10rem;
+    height: 10rem;
+  }
+  #banner-top {
+    order: 2; 
+  }
+  #bannaer-img {
+    left: 20%;
+    order: 1; /* Change the order of bannaer-img */
+  }
+
+  #banner-button {
+    order: 3; /* Change the order of banner-button */
+    margin-top: 0.3rem;
+  }
+  #koinx-banner-title{
+    font-size: 18px;
+  }
+ 
+ 
+  
+}

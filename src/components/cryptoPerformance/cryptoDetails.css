@@ -1,0 +1,129 @@
+#crypto-Details-layout {
+  /* border: 1px solid red; */
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  background-color: #fefeff;
+  border-radius: 10px;
+
+  padding-bottom: 2.5rem;
+}
+#perfor-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+.performance-level-color {
+  position: relative;
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  /* padding: 0rem 0rem 1.2rem 0rem; */
+}
+.perfor-labels {
+  /* border: solid 1px red; */
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.label-name-perfor {
+  /* border: 1px solid red; */
+
+  font-size: 15px;
+  font-weight: 450;
+  color: rgb(81, 79, 79);
+}
+.label-price-perfor {
+  /* border: 1px solid red; */
+
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(67, 61, 61);
+}
+.color-level-performance {
+  position: absolute;
+  width: 70%;
+  height: 0.3rem;
+
+  background: linear-gradient(
+    to right,
+    #f42c2c,
+    #e74c3c,
+    #e7b13c,
+    #f39c12,
+    #2ecc71,
+    #12ea6c
+  );
+  border-radius: 10px;
+  left: 15%;
+}
+
+#performance_currentprice_label > span {
+}
+#fundamentals-layout {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+#fundamentals-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+#fundamentals-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+.grid-item-fundamental {
+  /* border: 1px solid #8a2727; */
+  padding: 10px;
+  text-align: center;
+  border-bottom: solid 1.5px #d0d0dc;
+}
+.item-grid-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-item-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: grey;
+}
+.grid-item-value {
+  font-size: 14px;
+  font-weight: 600;
+}
+.info-icon {
+  margin-left: 0.3rem;
+  color: #9a9a9e;
+  font-size: medium;
+}
+
+#performance_currentprice_label {
+  position: "absolute";
+  display: "flex";
+  align-items: "center";
+  flex-direction: "column";
+  justify-content: "center";
+  left: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .color-level-performance {
+    width: 45%;
+    left: 26%;
+  }
+  #performance_currentprice_label > span {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(63, 60, 60);
+  }
+  #fundamentals-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

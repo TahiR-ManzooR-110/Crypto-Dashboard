@@ -1,0 +1,35 @@
+#tokenomics-layout {
+  margin-top: 1.5rem;
+  background-color: #fefeff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+#tokenomics-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+#tokenomics-container {
+  /* border: 1px solid red; */
+  height: 13rem;
+  width: 30rem;
+  padding: 0.3rem;
+  margin-left: -1rem;
+  padding-top: 0.5rem;
+}
+#tokenomics-content {
+  margin-top: 2.5rem;
+}
+#tokenomics-content > p {
+  font-size: 17px;
+  color: rgb(67, 65, 65);
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  #tokenomics-layout {
+    padding: 1rem 0.5rem;
+  }
+  #tokenomics-container {
+    width: 23rem;
+  }
+}

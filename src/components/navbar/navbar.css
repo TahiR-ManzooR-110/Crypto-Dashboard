@@ -1,0 +1,111 @@
+#navbar-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefeff;
+  height: 11vh;
+}
+#logo-nav {
+  /* border: solid 1px red; */
+  height: 4.5rem;
+  width: 7.5rem;
+
+  margin-left: 2vw;
+}
+#logo-nav:hover {
+  cursor: pointer;
+}
+#logo-nav > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#nav-elements {
+  margin-right: 3rem;
+}
+#nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+#nav-items > li {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#nav-items > li:hover {
+  color: rgb(131, 33, 223);
+  cursor: pointer;
+}
+#element-id-button-nav {
+  border: solid 1px red;
+  background-color: #195fd8;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 2rem;
+}
+#element-id-button-nav:hover {
+  cursor: pointer;
+  background-color: rgb(16, 77, 183);
+}
+
+.mobile-nav-items {
+  text-align: center;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  background-color: rgb(249, 247, 244);
+  width: 100%;
+  /* display: none; */
+  overflow: hidden;
+  height: 0px;
+}
+.mobile-nav-items > ul {
+  list-style: none;
+}
+#mobile-nav-show {
+  height: 200px;
+  transition: all 0.5s ease-in;
+}
+.mobile-nav-ele > a {
+  font-size: 18px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.mobile-nav-ele > a:hover {
+  color: #768ff3;
+}
+#nav-menu-button {
+  margin-top: 3vh;
+  padding: 1vh 2vh;
+  font-size: 15px;
+  border: none;
+  color: #fefeff;
+  background-color: rgb(108, 108, 245);
+  border-radius: 10px;
+}
+@media only screen and (max-width: 768px) {
+  #nav-items {
+    display: none;
+  }
+  #mobile-menu {
+    /* border: solid 1px red; */
+    font-size: 1.5rem;
+    margin-right: 7vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #mobile-menu {
+    display: none;
+  }
+}

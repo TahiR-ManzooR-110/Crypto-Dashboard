@@ -1,0 +1,130 @@
+#crypto-chart-layout {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  /* border: solid 1px red; */
+}
+#coin-logo {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0rem 1rem 0rem 1rem;
+}
+.coin-details-elements {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1vw;
+}
+#coin-name {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1rem;
+}
+#coin-Symbol {
+  font-weight: 550;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+}
+#coin-rank {
+  margin-left: 2.5rem;
+  background-color: #768297;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#coin-price-usd {
+  font-size: 27px;
+  font-weight: 600;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin-left: 1.1rem;
+}
+#coin-price-performance {
+  font-size: 18px;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+#coin-price-d {
+  width: 350px;
+
+  /* background-color: black; */
+}
+#coin-24-status {
+  color: #768297;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+#coin-price-inr {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  margin-left: 1.2rem;
+  margin-top: 0.3rem;
+  color: #5c5f65;
+}
+#coin-chart-price {
+  box-sizing: border-box;
+  /* border:  solid 1px red; */
+  height: 100%;
+  width: 100%;
+  margin-left: 1.5rem;
+}
+#chart-title-price {
+  /* border: solid 1px red; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  /* margin-left: 0.4rem; */
+  margin-right: 0.7rem;
+  flex-wrap: wrap;
+}
+#chart-name-title-coin {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* #chart-price-timeseries {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-right: 0.7rem;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5c5f65;
+  font-weight: 400;
+} */
+#chart {
+  margin-top: 2rem;
+  height: 530px;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  
+  #coin-details {
+    background-color: #fefeff;
+    margin-top: 1rem;
+    padding: 3vw;
+  }
+
+  #chart {
+    height: 500px;
+  }
+  #coin-price-usd{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 770px) {
+  #crypto-chart-layout {
+    background-color: #fefeff;
+  }
+  
+}

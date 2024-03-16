@@ -1,0 +1,62 @@
+#team-coin-layout {
+  margin-top: 1.5rem;
+  background-color: #fefeff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  overflow: hidden;
+  /* border: solid 1px red; */
+  width: fit-content;
+}
+#team-label {
+  font-size: 23px;
+  font-weight: 600;
+}
+#team-description {
+  font-size: 17px;
+  color: rgb(67, 65, 65);
+  font-weight: 500;
+  text-align: start;
+}
+#team-members {
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.team-member {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  /* border: solid 1px red; */
+  background-color: rgb(225, 246, 239);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.team-member-name {
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.team-member-role {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(157, 154, 154);
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .team-member {
+    flex-direction: column;
+    text-align: justify;
+  }
+  .team-memeber-intro {
+    font-size: 14px;
+    font-size: medium;
+  }
+}

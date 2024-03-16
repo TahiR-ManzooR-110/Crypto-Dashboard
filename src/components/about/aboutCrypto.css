@@ -1,0 +1,131 @@
+#about-container {
+  margin-top: 1.5rem;
+  background-color: #fefeff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow: hidden;
+  /* border: solid 1px red; */
+  width: 100%;
+}
+#about-crypto-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+#about-question-coin {
+  /* border: solid 1px #ddd; */
+  margin-top: 1.5rem;
+  border-bottom: solid 0.1px rgb(202, 192, 192);
+  padding-right: 2rem;
+}
+#about-question-coin > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+#about-question-coin > p {
+  font-size: 17px;
+  color: rgb(67, 65, 65);
+  font-weight: 500;
+  text-align: justify;
+}
+.about-crypto-info {
+  margin-top: 1.5rem;
+  border-bottom: solid 0.1px rgb(202, 192, 192);
+  padding-right: 2rem;
+}
+.about-crypto-info > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.about-crypto-info > p {
+  font-size: 17px;
+  text-align: justify;
+  color: rgb(67, 65, 65);
+  font-weight: 500;
+  /* white-space: pre-line; */
+}
+#tax-profit-box-layout {
+  margin-top: 1.5rem;
+}
+#tax-profit-box-layout > span {
+  font-size: 23px;
+  font-weight: 600;
+}
+#tax-profit-box-container {
+  /* border: solid 1px rgb(188, 104, 125); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 57rem;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 0.1px rgb(202, 192, 192);
+  height: fit-content;
+}
+.crypto-about-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.crypto-about-img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#calculate-profit {
+  /* border: solid 1px red; */
+  display: flex;
+  width: 44%;
+
+  align-items: start;
+  justify-content: start;
+  background-color: dodgerblue;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#calculate-tax {
+  /* border: solid 1px red; */
+  width: 44%;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 1rem;
+  background-color: orangered;
+  border-radius: 5px;
+}
+.label-calculate-redirect {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.redirect-button-check-now {
+  border: none;
+  background-color: white;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.redirect-button-check-now:hover {
+  cursor: pointer;
+  background-color: rgb(193, 189, 183);
+}
+
+.arrow-icon {
+  margin-left: 0.3rem;
+}
+@media only screen and (max-width: 768px) {
+  #tax-profit-box-container {
+    flex-direction: column;
+    width: 22rem;
+  }
+  #calculate-tax {
+    width: 90%;
+  }
+  #calculate-profit {
+    width: 90%;
+  }
+}
